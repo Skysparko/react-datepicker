@@ -22,7 +22,7 @@ function generateYears(year, noOfYear, minDate, maxDate) {
     }
   }
 
-  return list;
+  return list.reverse();
 }
 
 export default class YearDropdownOptions extends React.Component {
